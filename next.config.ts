@@ -1,7 +1,15 @@
-import type { NextConfig } from "next";
+import { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
-  /* config options here */
-};
+  images: {
+    remotePatterns:[
+      {
+        protocol:"https",
+        hostname: "**",
+        
+      }
+    ] // Add your external image domains here
+  },
+}
 
-export default nextConfig;
+export default nextConfig
