@@ -39,7 +39,7 @@ export default function HelpPage() {
       {/* Background Image with Overlay */}
         <div className="relative min-h-[50vh]">
           <Image
-            src="/images/school-help.png"
+            src="/images/help.jpg"
             alt="Support Center Background"
             layout="fill"
             className="object-cover w-full h-full"
